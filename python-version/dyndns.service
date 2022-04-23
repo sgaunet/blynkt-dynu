@@ -1,0 +1,8 @@
+[Unit]
+Description=Update dns dynu.net
+ 
+[Service]
+ExecStart=/usr/bin/python3 /opt/dyndns/maj-dns.py
+ 
+[Install]
+WantedBy=multi-user.target
